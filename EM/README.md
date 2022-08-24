@@ -1,1 +1,1 @@
-Due to the limitation of file size, we do not include our pre-generated EM noise here. Please see https://github.com/HanxunH/Unlearnable-Examples for details of EM noise generation. 
+Due to the limitation of file size, we do not include our pre-generated EM noise here. Please see https://github.com/HanxunH/Unlearnable-Examples for details of EM noise generation. You can save the EM noise file here or anywhere else. Just set the argument _**em_path**_ to the corresponding location.
