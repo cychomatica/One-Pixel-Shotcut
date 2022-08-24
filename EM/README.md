@@ -1,0 +1,1 @@
+Due to the limitation of file size, we are not able to include our pre-generated EM noise here. Please see https://github.com/HanxunH/Unlearnable-Examples for details of EM noise generation.
