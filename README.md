@@ -1,7 +1,7 @@
 # One-Pixel Shortcut
 Official Pytorch implementation of paper **One-Pixel Shortcut: on the Learning Preference of Deep Neural Networks**
 
-Accepted by **ICLR 2023** as a **spotlight** paper.
+Accepted to **ICLR 2023** as a **spotlight** paper.
 
 By Shutong Wu, Sizhe Chen, Cihang Xie and Xiaolin Huang
 
