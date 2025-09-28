@@ -55,8 +55,6 @@ if __name__ == '__main__':
                                         ])
             }
 
-    clean_train_data, clean_test_data = utils.load_cifar10_data(args.data_path,trans['aug'],trans['clean'])
-
     if args.data_aug == 'Standard':
         trans['aug'] = transforms.Compose([transforms.RandomHorizontalFlip(),
                                         transforms.RandomCrop(32, 4),
@@ -78,7 +76,7 @@ if __name__ == '__main__':
 
 
     '''dataset preparation'''
-    clean_train_data, clean_test_data = utils.load_cifar10_data(args.data_path,trans['aug'],trans['clean'])
+    clean_train_data, clean_test_data = utils.load_cifar10_data(args.data_path, transform_train=trans['aug'], transform_test=trans['clean'])
 
     if args.pert == 'OPS':
         datapack = {'image': clean_train_data.data / 255,
